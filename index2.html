@@ -60,7 +60,7 @@
   </p>
 
   <div class="Ethnie-container">
-    <button class="bouton-btn prev">&#10094;</button>
+    <button class="carousel-btn prev">&#10094;</button>
 
     <div class="Ethnie-container2">
       <div class="carousel-track">
@@ -76,7 +76,7 @@
       </div>
     </div>
 
-    <button class="bouton-btn next">&#10095;</button>
+    <button class="carousel-btn next">&#10095;</button>
   </div>
   <a href="index.html" class="bouton-2" data-aos="fade-up" data-aos-delay="200">Retour à l'accueil</a>
 </section>
@@ -86,7 +86,7 @@
   const track = document.querySelector('.carousel-track');
   const prevBtn = document.querySelector('.carousel-btn.prev');
   const nextBtn = document.querySelector('.carousel-btn.next');
-  const cards = document.querySelectorAll('.ethnie-card');
+  const cards = document.querySelectorAll('.ethnie-images');
   const cardsPerPage = 3;
   const totalPages = Math.ceil(cards.length / cardsPerPage);
   let currentPage = 0;

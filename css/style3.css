@@ -164,7 +164,7 @@ header {
 
 .carousel-track {
   display: flex;
-  transition: transform 0.5s ease-in-out;
+  transition: transform 0.8s ease-in-out;
 }
 
 .ethnie-images{
@@ -197,7 +197,7 @@ header {
   font-family: 'Orbitron', sans-serif;
 }
 
-.bouton-btn {
+.carousel-btn {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -211,10 +211,10 @@ header {
   border-radius: 50%;
 }
 
-.bouton-btn.prev {
+.carousel-btn.prev {
   left: 0;
 }
 
-.bouton-btn.next {
+.carousel-btn.next {
   right: 0;
 }
