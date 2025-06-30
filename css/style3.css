@@ -82,12 +82,14 @@ header {
   padding: 20px;
   width: 300px;
   box-shadow: 0 0 15px rgba(168, 0, 255, 0.4);
-  transition: transform 0.3s;
   text-align: left;
+  transition: transform 0.3s;
+  
 }
 
 .culture-image:hover {
   transform: scale(1.05);
+  box-shadow: 0 0 25px rgba(168, 0, 255, 0.6);
 }
 
 .culture-image img {
@@ -96,6 +98,7 @@ header {
   object-fit: cover;
   border-radius: 10px;
   margin-bottom: 15px;
+  
 }
 
 .culture-image h3 {
