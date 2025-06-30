@@ -4,6 +4,7 @@ body {
   color: white;
   margin: 0;
   padding: 0;
+  box-sizing: border-box; /* Appliqué directement ici */
 }
 
 header {
@@ -33,7 +34,7 @@ header {
 }
 
 .nav-links a:hover {
-  color: #0ff;
+  color: #FF5500;
 }
 
 .lieux-section {
@@ -42,7 +43,6 @@ header {
   background: linear-gradient(to bottom, #0a001f, #17003c);
 }
 
-
 .lieux-section h2 {
   font-size: 28px;
   color: white;
@@ -50,27 +50,6 @@ header {
   text-transform: uppercase;
   text-shadow: 2px 2px #FF5500;
 }
-
-
-.nav-links a:hover {
-  color: #FF5500;
-}
-
-
-.lieu:hover {
-  transform: scale(1.05);
-  box-shadow: 0 0 20px #FF5500;
-}
-
-
-.lieu h3 {
-  font-size: 18px;
-  color: #FF5500;
-  margin-bottom: 10px;
-}
-
-
-
 
 .lieux-description {
   color: #ccc;
@@ -96,6 +75,12 @@ header {
   transition: transform 0.3s;
   text-align: left;
 }
+
+.lieu:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px #FF5500;
+}
+
 .lieu img {
   width: 100%;
   height: 180px;
@@ -104,3 +89,8 @@ header {
   margin-bottom: 15px;
 }
 
+.lieu h3 {
+  font-size: 18px;
+  color: #FF5500;
+  margin-bottom: 10px;
+}
