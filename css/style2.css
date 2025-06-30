@@ -42,7 +42,7 @@ header {
   background: linear-gradient(to bottom, #0a001f, #17003c);
 }
 
-/* Titre principal avec ombre orange */
+
 .lieux-section h2 {
   font-size: 28px;
   color: white;
@@ -51,25 +51,25 @@ header {
   text-shadow: 2px 2px #FF5500;
 }
 
-/* Surlignage orange sur les liens actifs dans le header */
+
 .nav-links a:hover {
   color: #FF5500;
 }
 
-/* Carte hover avec ombre orange */
+
 .lieu:hover {
   transform: scale(1.05);
   box-shadow: 0 0 20px #FF5500;
 }
 
-/* Titre des lieux avec accent orange */
+
 .lieu h3 {
   font-size: 18px;
   color: #FF5500;
   margin-bottom: 10px;
 }
 
-/* Boutons personnalisés (si besoin) */
+
 
 
 .lieux-description {
@@ -95,5 +95,12 @@ header {
   box-shadow: 0 0 15px rgba(0, 255, 255, 0.3);
   transition: transform 0.3s;
   text-align: left;
+}
+.lieu img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
 }
 
