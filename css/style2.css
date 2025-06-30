@@ -94,3 +94,105 @@ header {
   color: #FF5500;
   margin-bottom: 10px;
 }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+    padding: 15px;
+  }
+
+  .logo img {
+    height: 100px;
+  }
+
+  .nav-links {
+    margin-top: 10px;
+  }
+
+  .nav-links a {
+    display: inline-block;
+    margin: 5px 8px;
+    font-size: 16px;
+  }
+
+  .lieux-section h2 {
+    font-size: 24px;
+  }
+
+  .lieux-description {
+    font-size: 15px;
+    padding: 0 10px;
+    max-width: 90%;
+  }
+
+  .lieu {
+    width: 250px;
+    padding: 15px;
+  }
+
+  .lieu img {
+    height: 160px;
+  }
+
+  .lieu h3 {
+    font-size: 17px;
+  }
+}
+
+
+
+@media (max-width: 767px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .logo img {
+    height: 80px;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-links a {
+    margin: 6px 0;
+    font-size: 16px;
+  }
+
+  .lieux-section {
+    padding: 40px 15px;
+  }
+
+  .lieux-section h2 {
+    font-size: 20px;
+  }
+
+  .lieux-description {
+    font-size: 14px;
+    max-width: 100%;
+  }
+
+  .lieux-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .lieu {
+    width: 90%;
+    margin: 0 auto;
+    padding: 15px;
+  }
+
+  .lieu img {
+    height: 160px;
+  }
+
+  .lieu h3 {
+    font-size: 16px;
+  }
+}
