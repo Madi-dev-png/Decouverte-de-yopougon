@@ -197,7 +197,7 @@ header {
   font-family: 'Orbitron', sans-serif;
 }
 
-.carousel-btn {
+.bouton-btn {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -211,10 +211,10 @@ header {
   border-radius: 50%;
 }
 
-.carousel-btn.prev {
+.bouton-btn.prev {
   left: 0;
 }
 
-.carousel-btn.next {
+.bouton-btn.next {
   right: 0;
 }
