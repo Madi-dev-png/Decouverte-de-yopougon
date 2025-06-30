@@ -155,7 +155,6 @@ header {
   padding: 20px;
   width: 300px;
   box-shadow: 0 0 15px rgba(168, 0, 255, 0.4);
-  transition: transform 0.3s;
   text-align: left;
 }
 
