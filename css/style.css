@@ -119,6 +119,7 @@ header {
   background: linear-gradient(to bottom, #17003c, #0a001f);
   text-align: center;
   margin-top: 80px;
+  
 }
 
 .plats-section h2 {
@@ -144,6 +145,7 @@ header {
   flex-wrap: wrap;
   justify-content: center;
   gap: 30px;
+  
 }
 
 .plat {
@@ -157,7 +159,8 @@ header {
 }
 
 .plat:hover {
-  transform: scale(1.05);
+  box-shadow: 0 0 25px rgba(168, 0, 255, 0.6);
+  
 }
 
 .plat img {
