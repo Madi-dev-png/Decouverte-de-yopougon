@@ -109,10 +109,11 @@ header {
   cursor: pointer;
 }
 
-.filter-btns button.active {
+.Boutons button.active {
   background: #00ffff;
   color: black;
 }
+
 
 .plats-section {
   padding: 60px 20px;
