@@ -162,7 +162,7 @@ header {
   overflow: hidden;
 }
 
-.carousel-track {
+.carousel-ethnie {
   display: flex;
   transition: transform 0.8s ease-in-out;
 }
