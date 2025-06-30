@@ -3,7 +3,7 @@ body {
   padding: 0;
   font-family: 'Orbitron', sans-serif;
   background: linear-gradient(180deg, #532b9f, #17003c);
-  color: white;
+  
 }
 
 
@@ -38,6 +38,7 @@ header {
     font-size: 14px;
     color: white;
     text-decoration: none;
+    font-family: 'Orbitron', sans-serif;
 }
 .nav-links a:hover {
     color: #0ff;
@@ -167,7 +168,7 @@ header {
 }
 
 .ethnie-card {
-  flex: 0 0 calc(100% / 3); 
+  flex: 0 0 calc(90% / 3); 
   padding: 15px;
   display: flex;
   flex-direction: column;
