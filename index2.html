@@ -11,7 +11,6 @@
 </head>
 
 <body>
-
   <header>
     <div class="logo">
       <img src="img/WhatsApp_Image_2025-06-30_à_12.24.43_d2c38894-removebg-preview.png" alt="Yopougon Logo" />
@@ -34,14 +33,15 @@
 
     <div class="culture-images">
       <article class="culture-image" data-aos="fade-right">
-        <img src="img/danse.jpeg" alt="Danses traditionnelles">
+        <img src="img/maquis-nightclub-le-pouvoir-rue-princesse-yopougon-township-across-DX9YPM.jpg"
+          alt="Danse traditionnelle de Côte d’Ivoire">
         <h3>Danses traditionnelles</h3>
         <p>Les quartiers de Yopougon vibrent au rythme des danses locales telles que le Zaouli, l'Adjoss ou le Goly. Ces
           danses expriment l’histoire, la spiritualité et l’identité des peuples ivoiriens.</p>
       </article>
 
       <article class="culture-image" data-aos="fade-left">
-        <img src="img/3_IMG_7553_MILLERAND-copy.webp" alt="Concert ambiance musicale">
+        <img src="img/yopougon-ivorycoas006.jpg" alt="Concert ambiance musicale">
         <h3>Musique et ambiance de yopougon</h3>
         <p>Berceau du Zouglou et terre du coupé-décalé, Yopougon est une référence musicale. Des artistes comme Yodé et
           Siro ou Magic System y ont trouvé leur inspiration.</p>
@@ -49,12 +49,12 @@
 
 
       <article class="culture-image" data-aos="fade-up">
-        <img src="img/FEMUA7-Yop-Remise-SurChoc3.jpg"alt="Événements culturels à Yopougon">
-        <h3>Événements culturels</h3>
-        <p>Chaque année, la commune organise des rendez-vous majeurs comme le FEMUA ou les carnavals de quartier, qui
-          célèbrent la diversité et renforcent les liens entre les générations.</p>
+        <img src="img/disco-nightlife-nightclub-yopougon-township-across-from-abidjan-ivory-DX9YMJ.jpg"
+          alt="Festival local à Yopougon">
+        <h3>Festivals ethniques</h3>
+        <p>Chaque année, la commune accueille des événements comme le FEMUA ou les carnavals de quartier, rassemblant
+          jeunes et anciens dans une ambiance festive.</p>
       </article>
-
     </div>
 
   </section>
@@ -68,10 +68,10 @@
     </p>
 
     <div class="Ethnie-container">
-      <button class="carousel-btn prev">&#10094;</button>
+      <button class="bouton-btn prev">&#10094;</button>
 
       <div class="Ethnie-container2">
-        <div class="carousel-ethnie">
+        <div class="carousel-track">
           <div class="ethnie-images"><img src="img/bete.jpg" alt="Bété">
             <h3>Bété</h3>
           </div>
@@ -102,17 +102,17 @@
         </div>
       </div>
 
-      <button class="carousel-btn next">&#10095;</button>
+      <button class="bouton-btn next">&#10095;</button>
     </div>
     <a href="index.html" class="bouton-2" data-aos="fade-up" data-aos-delay="200">Retour à l'accueil</a>
   </section>
 
 
   <script>
-    const track = document.querySelector('.carousel-ethnie');
+    const track = document.querySelector('.carousel-track');
     const prevBtn = document.querySelector('.carousel-btn.prev');
     const nextBtn = document.querySelector('.carousel-btn.next');
-    const cards = document.querySelectorAll('.ethnie-images');
+    const cards = document.querySelectorAll('.ethnie-card');
     const cardsPerPage = 3;
     const totalPages = Math.ceil(cards.length / cardsPerPage);
     let currentPage = 0;
@@ -142,31 +142,27 @@
   </script>
   <footer class="footer">
     <div class="footer-container">
-        <div class="social-icons">
-            <a href="https://wa.me/+225123456789" target="_blank" class="social-icon">
-                <img src="https://img.icons8.com/color/48/000000/whatsapp.png" alt="WhatsApp" />
-            </a>
-            <a href="https://www.instagram.com/yourprofile" target="_blank" class="social-icon">
-                <img src="https://img.icons8.com/color/48/000000/instagram-new.png" alt="Instagram" />
-            </a>
-            <a href="https://www.facebook.com/yourprofile" target="_blank" class="social-icon">
-                <img src="https://img.icons8.com/color/48/000000/facebook-new.png" alt="Facebook" />
-            </a>
-        </div>
-        <div class="map-container">
-            <h3>Nous trouver à Yopougon</h3>
-            <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3972.5171034754965!2d-4.089240085741663!3d5.329255996105013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfc1a7b1c1b1b1b1%3A0x1b1b1b1b1b1b1b1b!2sYopougon%2C%20Abidjan%2C%20C%C3%B4te%20d'Ivoire!5e0!3m2!1sfr!2sci!4v1634567891234" 
-                width="100%" 
-                height="200" 
-                style="border:0; border-radius: 8px;" 
-                allowfullscreen="" 
-                loading="lazy">
-            </iframe>
-        </div>
-        <p>&copy; 2025 Votre Site. Tous droits réservés.</p>
+      <div class="social-icons">
+        <a href="https://wa.me/+225123456789" target="_blank" class="social-icon">
+          <img src="https://img.icons8.com/color/48/000000/whatsapp.png" alt="WhatsApp" />
+        </a>
+        <a href="https://www.instagram.com/yourprofile" target="_blank" class="social-icon">
+          <img src="https://img.icons8.com/color/48/000000/instagram-new.png" alt="Instagram" />
+        </a>
+        <a href="https://www.facebook.com/yourprofile" target="_blank" class="social-icon">
+          <img src="https://img.icons8.com/color/48/000000/facebook-new.png" alt="Facebook" />
+        </a>
+      </div>
+      <div class="map-container">
+        <h3>Nous trouver à Yopougon</h3>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3972.5171034754965!2d-4.089240085741663!3d5.329255996105013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfc1a7b1c1b1b1b1%3A0x1b1b1b1b1b1b1b1b!2sYopougon%2C%20Abidjan%2C%20C%C3%B4te%20d'Ivoire!5e0!3m2!1sfr!2sci!4v1634567891234"
+          width="100%" height="200" style="border:0; border-radius: 8px;" allowfullscreen="" loading="lazy">
+        </iframe>
+      </div>
+      <p>&copy; 2025 Votre Site. Tous droits réservés.</p>
     </div>
-</footer>
+  </footer>
 </body>
 
 </html>
