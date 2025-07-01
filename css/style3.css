@@ -82,12 +82,14 @@ header {
   padding: 20px;
   width: 300px;
   box-shadow: 0 0 15px rgba(168, 0, 255, 0.4);
-  transition: transform 0.3s;
   text-align: left;
+  transition: transform 0.3s;
+  
 }
 
 .culture-image:hover {
   transform: scale(1.05);
+  box-shadow: 0 0 25px rgba(168, 0, 255, 0.6);
 }
 
 .culture-image img {
@@ -96,6 +98,7 @@ header {
   object-fit: cover;
   border-radius: 10px;
   margin-bottom: 15px;
+  
 }
 
 .culture-image h3 {
@@ -162,9 +165,9 @@ header {
   overflow: hidden;
 }
 
-.carousel-track {
+.carousel-ethnie {
   display: flex;
-  transition: transform 0.5s ease-in-out;
+  transition: transform 0.8s ease-in-out;
 }
 
 .ethnie-images{
@@ -197,7 +200,7 @@ header {
   font-family: 'Orbitron', sans-serif;
 }
 
-.bouton-btn {
+.carousel-btn {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -211,10 +214,180 @@ header {
   border-radius: 50%;
 }
 
-.bouton-btn.prev {
+.carousel-btn.prev {
   left: 0;
 }
 
-.bouton-btn.next {
+.carousel-btn.next {
   right: 0;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  header {
+    flex-direction: column;
+    text-align: center;
+    padding: 15px;
+  }
+
+  .logo img {
+    height: 120px;
+    width: 160px;
+  }
+
+  .nav-links {
+    margin-top: 15px;
+  }
+
+  .nav-links a {
+    display: inline-block;
+    margin: 5px 8px;
+    font-size: 16px;
+  }
+
+  .Tradition h2 {
+    font-size: 24px;
+  }
+
+  .Tradition p {
+    font-size: 15px;
+    max-width: 90%;
+  }
+
+  .culture-images {
+    gap: 20px;
+  }
+
+  .culture-image {
+    width: 250px;
+    padding: 15px;
+  }
+
+  .culture-image img {
+    height: 160px;
+  }
+
+  .bouton-2 {
+    padding: 10px 20px;
+    font-size: 15px;
+  }
+
+  .titre-ethnie {
+    font-size: 20px;
+  }
+
+  .sous-titre-ethnie {
+    font-size: 14px;
+    max-width: 90%;
+  }
+
+  .ethnie-images {
+    flex: 0 0 calc(100% / 2.3); /* 2 par ligne environ */
+  }
+
+  .ethnie-images img {
+    width: 220px;
+    height: 160px;
+  }
+
+  .ethnie-images h3 {
+    font-size: 16px;
+  }
+}
+
+
+@media (max-width: 767px) {
+
+  header {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .logo img {
+    height: 90px;
+    width: 130px;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-links a {
+    margin: 6px 0;
+    font-size: 16px;
+  }
+
+  .Tradition {
+    padding: 40px 15px;
+  }
+
+  .Tradition h2 {
+    font-size: 20px;
+  }
+
+  .Tradition p {
+    font-size: 14px;
+    max-width: 100%;
+  }
+
+  .culture-images {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .culture-image {
+    width: 90%;
+    margin: 0 auto;
+    padding: 15px;
+  }
+
+  .culture-image img {
+    height: 160px;
+  }
+
+  .bouton-2 {
+    padding: 10px 18px;
+    font-size: 14px;
+  }
+
+  .Ethnie {
+    padding: 40px 10px;
+  }
+
+  .titre-ethnie {
+    font-size: 18px;
+  }
+
+  .sous-titre-ethnie {
+    font-size: 14px;
+    padding: 0 10px;
+  }
+
+  .carousel-ethnie {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ethnie-images {
+    flex: 0 0 100%;
+    padding: 10px 0;
+  }
+
+  .ethnie-images img {
+    width: 90%;
+    height: 160px;
+  }
+
+  .ethnie-images h3 {
+    font-size: 16px;
+  }
+
+  .carousel-btn {
+    font-size: 24px;
+    padding: 6px;
+  }
+
 }
